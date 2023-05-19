@@ -1,8 +1,6 @@
 # Ivy
 Ivy is an open-source video-based object counting software for tallying pretty much anything (vehicles, people, animals — you name it).
 
-> Need help setting up Ivy and analyzing the logs? Visit https://trafficlogic.co or send an email to contact@trafficlogic.co.
-
 ![](object_counting.jpg)
 
 ## Requirements
@@ -26,14 +24,6 @@ Ivy is an open-source video-based object counting software for tallying pretty m
 - Run `python -m  main`.
 - Run using Docker `docker build -t nicholaskajoh/ivy .`.
 
-## Demo
-Download [ivy_demo_data.zip](https://drive.google.com/open?id=1JtEhWlfk1CiUEFsrTQHQa0VkTi3IKbze) and unzip its contents in the [data directory](/data). It contains detection models and a sample video.
-
-## Test
-```
-python -m pytest
-```
-
 ## Debug
 By default, Ivy runs in "debug mode" which provides you a window to monitor the object counting process. You can:
 - press the `p` key to pause/play the counting process
@@ -41,5 +31,3 @@ By default, Ivy runs in "debug mode" which provides you a window to monitor the 
 - press the `q` key to quit the program
 - click any point on the window to log the coordinates of the pixel in that position
 
-## Community
-Got questions, contributions, suggestions, concerns? [Let us know](https://github.com/nicholaskajoh/ivy/discussions)! Also follow us on Twitter [@CountWithIvy](https://twitter.com/CountWithIvy) to get notified about new features, fixes and initiatives.
